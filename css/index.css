@@ -54,7 +54,7 @@ h1 {
 #gamePanel p {
 	padding: 8px;
 }
-/* 按钮样式 */
+
 .button {
 	display: inline-block;
 	padding: 10px;
@@ -69,13 +69,13 @@ h1 {
 	height: 100px;
 	border-radius: 6px;
 }
-/* 背景网格 */
+
 #gamePanel .grid {
 	background-color: #ccc0b3;
 	float: left;
 	margin: 0 20px 20px 0;
 }
-/* 格式化前景单元格中位置 */
+
 .cell {
 	position: absolute;
 	line-height: 100px;
@@ -84,7 +84,7 @@ h1 {
 	font-size: 60px;
 	color: #776E65;
 }
-/* 前景格中的行位置 */
+
 #cell00, #cell01, #cell02, #cell03 {
 	top: 20;
 }
@@ -100,7 +100,7 @@ h1 {
 #cell30, #cell31, #cell32, #cell33 {
 	top: 380px;
 }
-/* 前景格中的列位置 */
+
 #cell00, #cell10, #cell20, #cell30 {
 	left: 20px;
 }
@@ -116,7 +116,7 @@ h1 {
 #cell03, #cell13, #cell23, #cell33 {
 	left: 380px;
 }
-/* 数字显示效果 */
+
 .num8, .num16, .num32, .num64, .num128, .num256, .num512, .num1024,
 	.num2048, .num4096, .num8192 {
 	color: #fff;
@@ -177,7 +177,7 @@ h1 {
 .num8192 {
 	background: #93c;
 }
-/* 格式化Game Over的样式 */
+
 #gameOver {
 	display: none;
 	position: absolute;
