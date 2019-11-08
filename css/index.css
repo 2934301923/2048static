@@ -5,6 +5,11 @@ body {
 	margin: 0;
 	font-family: 微软雅黑, 文泉译正黑, 宋体, 仿宋;
 }
+.date{
+	text-align: center;
+	color: #FF0000;
+	font-family: 微软雅黑, 文泉译正黑, 宋体, 仿宋;
+}
 
 .text {
 	font-family:  微软雅黑, 文泉译正黑, 宋体, 仿宋;
